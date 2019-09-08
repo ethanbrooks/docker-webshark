@@ -1,5 +1,5 @@
 diff --git a/epan/frame_data.h b/epan/frame_data.h
-index d4b429b596..ae992f9c91 100644
+index ad5a06243c..ba5408236b 100644
 --- a/epan/frame_data.h
 +++ b/epan/frame_data.h
 @@ -89,7 +89,6 @@ typedef struct _frame_data {
@@ -11,7 +11,7 @@ index d4b429b596..ae992f9c91 100644
    guint32      prev_dis_num; /**< Previous displayed frame (0 if first one) */
  } frame_data;
 diff --git a/epan/dissectors/packet-frame.c b/epan/dissectors/packet-frame.c
-index fdf2ea2ee2..526133dd75 100644
+index 81b67f8006..603481c32d 100644
 --- a/epan/dissectors/packet-frame.c
 +++ b/epan/dissectors/packet-frame.c
 @@ -47,7 +47,6 @@ static int proto_pkt_comment = -1;
@@ -22,7 +22,7 @@ index fdf2ea2ee2..526133dd75 100644
  static int hf_frame_arrival_time_epoch = -1;
  static int hf_frame_time_delta = -1;
  static int hf_frame_time_delta_displayed = -1;
-@@ -476,9 +475,6 @@ dissect_frame(tvbuff_t *tvb, packet_info *pinfo, proto_tree *parent_tree, void*
+@@ -483,9 +482,6 @@ dissect_frame(tvbuff_t *tvb, packet_info *pinfo, proto_tree *parent_tree, void*
  								  " the valid range is 0-1000000000",
  								  (long) pinfo->abs_ts.nsecs);
  			}
@@ -32,7 +32,7 @@ index fdf2ea2ee2..526133dd75 100644
  
  			if (generate_epoch_time) {
  				proto_tree_add_time(fh_tree, hf_frame_arrival_time_epoch, tvb,
-@@ -829,11 +825,6 @@ proto_register_frame(void)
+@@ -836,11 +832,6 @@ proto_register_frame(void)
  		    FT_ABSOLUTE_TIME, ABSOLUTE_TIME_LOCAL, NULL, 0x0,
  		    "Absolute time when this frame was captured", HFILL }},
  
@@ -45,7 +45,7 @@ index fdf2ea2ee2..526133dd75 100644
  		  { "Epoch Time", "frame.time_epoch",
  		    FT_RELATIVE_TIME, BASE_NONE, NULL, 0x0,
 diff --git a/epan/frame_data.c b/epan/frame_data.c
-index 4ccd318b9a..cf29e7a49c 100644
+index cac0f217f5..a6888e968f 100644
 --- a/epan/frame_data.c
 +++ b/epan/frame_data.c
 @@ -202,8 +202,6 @@ frame_data_init(frame_data *fdata, guint32 num, const wtap_rec *rec,
@@ -58,7 +58,7 @@ index 4ccd318b9a..cf29e7a49c 100644
    fdata->prev_dis_num = 0;
  }
 diff --git a/ui/CMakeLists.txt b/ui/CMakeLists.txt
-index f430bb079b..79891032d3 100644
+index 6f240b6873..758c47b549 100644
 --- a/ui/CMakeLists.txt
 +++ b/ui/CMakeLists.txt
 @@ -51,7 +51,6 @@ set(NONGENERATED_UI_SRC

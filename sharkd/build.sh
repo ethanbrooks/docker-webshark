@@ -7,7 +7,7 @@ set -x
 
 # Update wireshark sources
 git pull
-git reset --hard 640ded8e1d45ec3ee8594c385b1045cbaa0042a0   ## tested with this hash
+git reset --hard de4efb6af781969cd8fd9d5ca4815f20ce0674ed   ## tested with this hash
 
 # Integrate sharkd
 patch -p1 < ../sharkd/sharkd.patch
