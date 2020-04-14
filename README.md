@@ -26,12 +26,13 @@ Building webshark docker image
 Build sharkd tarball
 ~~~~
 	$ docker build -t sharkd:latest sharkd/
-	$ docker run -v `pwd`:/out:/out --rm -it sharkd:latest
+	$ docker run -v out:/out --rm -it sharkd:latest
 ~~~~
 
 Build and run docker image:
 ~~~~
+	$ pnpm i browserify-lite
 	$ browserify-lite --standalone webshark ./web/js/webshark.js --outfile web/js/webshark-app.js
 	$ docker build -t webshark:latest .
-	$ docker run -v ~/pcaps:/caps -p 8000:80 -it webshark:latest
+	$ docker run -v pcaps:/caps -p 8000:80 -it webshark:latest
 ~~~~
