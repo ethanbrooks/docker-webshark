@@ -1,0 +1,17 @@
+devDependencies:
+  browserify-lite: 0.5.1
+lockfileVersion: 5.1
+packages:
+  /browserify-lite/0.5.1:
+    dependencies:
+      pend: 1.2.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-Gchpamt5H1hcxQR85h+4w+coz8hBt7JlmCUogtApLS45OHWR7KqxNmVvpTu7fM4Cf4rxKLeWztNT5D3DZD2R6w==
+  /pend/1.2.0:
+    dev: true
+    resolution:
+      integrity: sha1-elfrVQpng/kRUzH89GY9XI4AelA=
+specifiers:
+  browserify-lite: ^0.5.1

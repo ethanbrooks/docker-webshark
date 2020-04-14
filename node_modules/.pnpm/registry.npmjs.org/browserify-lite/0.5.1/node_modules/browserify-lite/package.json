@@ -1,0 +1,24 @@
+{
+  "name": "browserify-lite",
+  "version": "0.5.1",
+  "description": "browserify, minus some of the advanced features and heavy dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "browserify-lite": "./cli.js"
+  },
+  "author": "Andrew Kelley <superjoe30@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pend": "~1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewrk/browserify-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewrk/browserify-lite/issues"
+  }
+}

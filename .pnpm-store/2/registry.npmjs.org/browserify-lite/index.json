@@ -1,0 +1,168 @@
+{
+	"name": "browserify-lite",
+	"dist-tags": {
+		"latest": "0.5.1"
+	},
+	"versions": {
+		"0.0.1": {
+			"name": "browserify-lite",
+			"version": "0.0.1",
+			"dependencies": {
+				"pend": "~1.1.3"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "d9bcee97e11bec32b75cc7f0af6b1a7858a024c2",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.0.1.tgz"
+			}
+		},
+		"0.2.0": {
+			"name": "browserify-lite",
+			"version": "0.2.0",
+			"dependencies": {
+				"pend": "~1.1.3"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "3ba2fdac021275d8f4472c8c51b0bd9023f9322e",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.2.0.tgz"
+			}
+		},
+		"0.2.1": {
+			"name": "browserify-lite",
+			"version": "0.2.1",
+			"dependencies": {
+				"pend": "~1.1.3"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "18677592248c116cb41b2433af87be27a1aff69c",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.2.1.tgz"
+			}
+		},
+		"0.2.2": {
+			"name": "browserify-lite",
+			"version": "0.2.2",
+			"dependencies": {
+				"pend": "~1.1.3"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "2f351b036db6c66a70371c0356df3ffa052df2b2",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.2.2.tgz"
+			}
+		},
+		"0.2.3": {
+			"name": "browserify-lite",
+			"version": "0.2.3",
+			"dependencies": {
+				"pend": "~1.1.3"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "70921b14236f473018896a671e302777c522da00",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.2.3.tgz"
+			}
+		},
+		"0.2.4": {
+			"name": "browserify-lite",
+			"version": "0.2.4",
+			"dependencies": {
+				"pend": "~1.2.0"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "00a32f466c8f3dbbd1074250fd0aa775716ab140",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.2.4.tgz"
+			}
+		},
+		"0.2.5": {
+			"name": "browserify-lite",
+			"version": "0.2.5",
+			"dependencies": {
+				"pend": "~1.2.0"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "e8247fff159686983218744d912681d42756f45e",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.2.5.tgz"
+			}
+		},
+		"0.3.0": {
+			"name": "browserify-lite",
+			"version": "0.3.0",
+			"dependencies": {
+				"pend": "~1.2.0"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "fec37907237f9d981fb6b31efc90b397ca8b4a05",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.3.0.tgz"
+			}
+		},
+		"0.4.0": {
+			"name": "browserify-lite",
+			"version": "0.4.0",
+			"dependencies": {
+				"pend": "~1.2.0"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "5a7b9b0070496a84f4e0111c20018a4dca38a592",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.4.0.tgz"
+			}
+		},
+		"0.5.0": {
+			"name": "browserify-lite",
+			"version": "0.5.0",
+			"dependencies": {
+				"pend": "~1.2.0"
+			},
+			"bin": {
+				"browserify-lite": "./cli.js"
+			},
+			"dist": {
+				"shasum": "5f8a8531a47adb8e5bfdf914c2ede4fd15f6719e",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.5.0.tgz"
+			}
+		},
+		"0.5.1": {
+			"name": "browserify-lite",
+			"version": "0.5.1",
+			"dependencies": {
+				"pend": "~1.2.0"
+			},
+			"bin": {
+				"browserify-lite": "cli.js"
+			},
+			"dist": {
+				"integrity": "sha512-Gchpamt5H1hcxQR85h+4w+coz8hBt7JlmCUogtApLS45OHWR7KqxNmVvpTu7fM4Cf4rxKLeWztNT5D3DZD2R6w==",
+				"shasum": "b6d065374b18a60efa7ea3eb9131f99b731709f5",
+				"tarball": "https://registry.npmjs.org/browserify-lite/-/browserify-lite-0.5.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 15644,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJedXO7CRA9TVsSAnZWagAAYHUP/1KRwKJbe17L2KXlcY4b\n9v7lSuxMdOQz5W+lhY/owNHsk9MKIR310TTqb8XsiBTYl9f+u93nwfwJbbiS\nVPbUTfXkf/cye9JpSj92iCrrzQBeH97ofbyMkZuFLi/DQOxq/3Y3dqtcY4d1\n0JLyrBwJ9XASl94CAUPGSc5Rb9hcI7c5n0mZ5rKSZ3Pq6Labjf/yRQD5wCLO\nhSH0VkXyK1CEYD2nkMORC0rnH6yDY/RlGxpg6+GlOrCM8yVkfPgEYnxBl++W\nXIAVznLV1LBeOJaSSbZq7VuAdmIZZoZiR2X854qJ1bKF3ilPbXwbqHAWDR3a\nWxSkwCaz5s9A09clKUVSJrKvbNyNasngBRx+NLXtbHvMd8l4G6qvO84DGMhY\nu6GoNqUkfBecxXR49kbEt7/qQ9pHhqj4PEjgT9bAeIeh7jKwuUUkAVsreFPe\np83CS/AiJ0mrQJ7Wi22W3OQicF6VXp+na8aBSFYFIe/EoyXqz6VNrvchVJII\nurz5HbI/RYKd5KNvV7OFB2D/9mguy4mZCfY8miEizOZuV55+dHPPqhCOeq0x\nBX+WDxeGVrAr/K+Z+pxwybcMAtw8fsT2Mg28BZDzZp3xUgSawevZAuJ7Rfxw\ntKXHJuwfzx7INKmR8Z4D6IeItfTiS6bDkw5E6OHnORO4oS53/XKYZZj9kfUA\nfQmi\r\n=tGOJ\r\n-----END PGP SIGNATURE-----\r\n"
+			}
+		}
+	},
+	"modified": "2020-03-21T01:54:05.582Z",
+	"cachedAt": 1586895613747
+}

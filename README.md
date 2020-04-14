@@ -26,7 +26,7 @@ Building webshark docker image
 Build sharkd tarball
 ~~~~
 	$ docker build -t sharkd:latest sharkd/
-	$ docker run -v out:/out --rm -it sharkd:latest
+	$ docker run -v "$PWD"/out:/out --rm -it sharkd:latest
 ~~~~
 
 Build and run docker image:

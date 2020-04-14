@@ -1,0 +1,22 @@
+{
+  "name": "webshark",
+  "version": "1.0.0",
+  "description": "https://wiki.wireshark.org/SampleCaptures https://bitbucket.org/jwzawadzki/webshark/src/master/",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify-lite --standalone webshark ./web/js/webshark.js --outfile web/js/webshark-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanbrooks/docker-webshark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanbrooks/docker-webshark/issues"
+  },
+  "homepage": "https://github.com/ethanbrooks/docker-webshark#readme",
+  "devDependencies": {
+    "browserify-lite": "^0.5.1"
+  }
+}
